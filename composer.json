@@ -1,0 +1,15 @@
+{
+    "name": "lda/mfw",
+    "authors": [
+        {
+            "name": "Ligiano Azzi",
+            "email": "ligiano@ligiano.info"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+    	"psr-4": {
+    		"LdaAzzi\\":"src"
+    	}
+    }
+}
