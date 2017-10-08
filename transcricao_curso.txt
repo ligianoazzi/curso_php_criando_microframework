@@ -3,3 +3,21 @@ Created the composer.json e run composer install
 
  - Class three
 Talk about PSR-1 with do not close tag <php, for stay "interoperabilidade"
+
+ - install illuminate
+composer require illuminate/support
+
+ - install php_codesniffer - is for improve the quality of your system, he analyse the code and generates report with the errors about PSRs
+composer require squizlabs/php_codesniffer --dev
+
+ - The --dev in composer means that dependency is not necessary for enviroment production, only enviroment development
+
+ - for use the codesnif, in CMD:
+vendor\bin\phpcs nome_da_pasta --modo_de_analise=psr
+vendor\bin\phpcs src --standard=PSR2
+
+* nao esqueça que no linux as barras "/"  sao invertidas "\"
+
+
+ - for repare your code with codesnif, in CMD:
+vendor\bin\phpcbf src --standard=PSR2

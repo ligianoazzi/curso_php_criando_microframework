@@ -6,10 +6,15 @@
             "email": "ligiano@ligiano.info"
         }
     ],
-    "require": {},
+    "require": {
+        "illuminate/support": "^5.4"
+    },
     "autoload" : {
     	"psr-4": {
     		"LdaAzzi\\":"src"
     	}
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.1"
     }
 }

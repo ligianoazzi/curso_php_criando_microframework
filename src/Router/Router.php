@@ -4,11 +4,10 @@
 // namespace composto por 2 nomes (nome do fornecedor Ldaazzi e nome do pacote Router)
 namespace LdaAzzi\Router;
 
-
-class Router 
+class Router
 {
-	public function __construct()
-	{
-		echo "esta funcionando";
-	}
+    public function __construct()
+    {
+        echo "esta funcionando";
+    }
 }
